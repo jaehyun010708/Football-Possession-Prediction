@@ -1,0 +1,43 @@
+
+# Raw datasets and generated outputs
+data/idsse/*
+!data/idsse/.gitkeep
+outputs/
+third_party/outputs/
+
+# Model weights and serialized data
+*.pt
+*.pth
+*.ckpt
+*.joblib
+*.npz
+*.npy
+*.pkl
+*.onnx
+
+# Raw data and media
+*.csv
+*.xml
+*.dat
+*.mp4
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# OS and IDE
+.DS_Store
+.vscode/
+
+# Logs
+*.log
+

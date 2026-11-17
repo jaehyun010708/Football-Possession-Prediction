@@ -1,0 +1,11 @@
+# Python 3.13.14 (versions used to build sub_13)
+numpy==2.4.4
+scipy==1.18.0
+pandas==3.0.3
+scikit-learn==1.9.0
+joblib==1.5.3
+torch==2.14.0
+kloppy==3.18.0
+PyYAML==6.0.3
+# Fetch the 21 public IDSSE files with --download-missing
+huggingface_hub>=0.30,<2
